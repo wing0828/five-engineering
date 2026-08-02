@@ -1,6 +1,6 @@
 # Five Engineering
 
-Five Engineering is a portable Codex skill for making complex AI work more reliable through five nested layers:
+Five Engineering is a portable Agent Skill for making complex AI work more reliable in Codex and Claude Code through five nested layers:
 
 1. Prompt engineering
 2. Context engineering
@@ -39,9 +39,45 @@ Use $five-engineering to plan and implement this feature with clear success crit
 
 It can also be selected automatically for complex implementation, research, automation, debugging, and multi-agent work.
 
+## Install in Claude Code
+
+### Plugin installation
+
+Run these commands inside Claude Code:
+
+```text
+/plugin marketplace add wing0828/five-engineering
+/plugin install five-engineering@five-engineering-marketplace
+/reload-plugins
+```
+
+Invoke the plugin skill explicitly:
+
+```text
+/five-engineering:five-engineering
+```
+
+Claude can also invoke it automatically when the request matches its description.
+
+### Personal skill installation
+
+Alternatively, clone this repository and copy `skills/five-engineering` into your personal Claude Code skills directory:
+
+- Windows: `%USERPROFILE%\.claude\skills\five-engineering`
+- macOS/Linux: `~/.claude/skills/five-engineering`
+
+Then invoke it without a plugin namespace:
+
+```text
+/five-engineering
+```
+
 ## Repository layout
 
 ```text
+.claude-plugin/
+  marketplace.json
+  plugin.json
 skills/
   five-engineering/
     SKILL.md

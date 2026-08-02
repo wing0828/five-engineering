@@ -1,0 +1,14 @@
+{
+  "name": "five-engineering-marketplace",
+  "owner": {
+    "name": "Five Engineering contributors"
+  },
+  "description": "The official marketplace for the Five Engineering Agent Skill.",
+  "plugins": [
+    {
+      "name": "five-engineering",
+      "source": "./",
+      "description": "Reliable AI work through prompt, context, harness, loop, and graph engineering."
+    }
+  ]
+}

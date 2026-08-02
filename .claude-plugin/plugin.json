@@ -1,0 +1,11 @@
+{
+  "name": "five-engineering",
+  "displayName": "Five Engineering",
+  "description": "Reliable AI work through prompt, context, harness, loop, and graph engineering.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Five Engineering contributors"
+  },
+  "homepage": "https://github.com/wing0828/five-engineering",
+  "repository": "https://github.com/wing0828/five-engineering"
+}
