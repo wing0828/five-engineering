@@ -1,0 +1,4 @@
+interface:
+  display_name: "Five Engineering"
+  short_description: "Reliable AI work through five engineering layers"
+  default_prompt: "Use $five-engineering to turn this task into a verified, reliable workflow."

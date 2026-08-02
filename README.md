@@ -1,0 +1,54 @@
+# Five Engineering
+
+Five Engineering is a portable Codex skill for making complex AI work more reliable through five nested layers:
+
+1. Prompt engineering
+2. Context engineering
+3. Harness engineering
+4. Loop engineering
+5. Graph engineering
+
+It helps an agent turn an ambiguous request into a testable contract, gather bounded context, build verification into execution, iterate without repeating failed attempts, and coordinate independent work safely.
+
+## Install in Codex
+
+Ask Codex:
+
+```text
+Install the five-engineering skill from https://github.com/wing0828/five-engineering/tree/main/skills/five-engineering
+```
+
+Codex can install it from the public GitHub path using its built-in skill installer. The skill becomes available on the next turn after installation.
+
+## Manual installation
+
+Clone this repository, then copy `skills/five-engineering` into your Codex skills directory as `five-engineering`:
+
+- Windows: `%USERPROFILE%\.codex\skills\five-engineering`
+- macOS/Linux: `~/.codex/skills/five-engineering`
+
+The installed directory must contain `SKILL.md` directly.
+
+## Use
+
+Invoke it explicitly:
+
+```text
+Use $five-engineering to plan and implement this feature with clear success criteria and verification.
+```
+
+It can also be selected automatically for complex implementation, research, automation, debugging, and multi-agent work.
+
+## Repository layout
+
+```text
+skills/
+  five-engineering/
+    SKILL.md
+    agents/
+      openai.yaml
+```
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
