@@ -10,6 +10,25 @@ Five Engineering is a portable Agent Skill for making complex AI work more relia
 
 It helps an agent turn an ambiguous request into a testable contract, gather bounded context, build verification into execution, iterate without repeating failed attempts, and coordinate independent work safely.
 
+## What you get
+
+- **Clear outcomes before execution** - turn vague requests into observable success criteria.
+- **Less context noise** - gather only the files, decisions, constraints, and evidence needed for the next step.
+- **Verification built into the work** - define how every meaningful change will be checked before implementation begins.
+- **Smarter iteration** - avoid repeating unchanged failures and stop with precise evidence when blocked.
+- **Safer parallel work** - give independent branches explicit ownership, dependencies, merge points, and review gates.
+- **One workflow across tools** - use the same five-layer method in Codex and Claude Code.
+
+Five Engineering does not replace the agent's tools or judgment. It provides a reusable operating method that makes complex AI work easier to inspect, verify, and coordinate.
+
+## Who it is for
+
+- Developers using AI for implementation, debugging, refactoring, or migration work
+- Researchers who need source discipline and explicit evidence
+- Automation builders running iterative or long-running tasks
+- Teams coordinating multiple agents or independent workstreams
+- Anyone who wants more than a one-shot answer from an AI coding agent
+
 ## Install in Codex
 
 Ask Codex:
@@ -88,3 +107,7 @@ skills/
 ## License
 
 MIT License. See [LICENSE](LICENSE).
+
+## Share
+
+Ready-to-post Korean launch copy is available in [PROMOTION_KO.md](PROMOTION_KO.md).
